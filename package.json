@@ -1,0 +1,21 @@
+{
+  "name": "datetime-inserter",
+  "displayName": "Tarih Saat Ekleyici",
+  "description": "Tarih ve saat ekler",
+  "version": "0.0.1",
+  "publisher": "batuhan",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": [""],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "datetime-inserter.insertDateTime",
+        "title": "Tarih ve Saat Ekle"
+      }
+    ]
+  }
+}
